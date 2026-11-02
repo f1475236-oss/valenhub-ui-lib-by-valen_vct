@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Valen UI
+  structure:
+    - type: space
+      key: valen-ui
+      title: Valen UI
+      path: .
+      default: true
+      content:
+        directory: .
+        language: en
