@@ -7,6 +7,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/f1475
 
 local Window = Library:CreateWindow({
     Title = "My Hub",
+    Id = "MyHub",                      -- keeps your hub's files separate from other hubs
     Game = "Any Game",
     Icon = "flame",
     ToggleKey = Enum.KeyCode.RightControl,
