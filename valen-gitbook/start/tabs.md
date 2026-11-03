@@ -28,6 +28,7 @@ Sections lay out in two columns. Pass `"Left"` or `"Right"` to choose the column
 | [Slider / Number](../components/sliders.md) | Pick a value in a range |
 | [Input / Keybind](../components/input.md) | Text box, key picker |
 | [Segmented](../components/segmented.md) | Pick exactly one |
+| [List view](../components/list.md) | Scrollable, selectable list |
 | [Label / Paragraph / Divider / Image / Code](../components/display.md) | Static display |
 | [Stat / Progress / Sparkline / Console](../components/data.md) | Live readouts |
 | [Tabbox / Group](../components/tabbox.md) | Group controls |

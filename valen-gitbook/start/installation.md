@@ -3,7 +3,7 @@
 Load the library and keep the returned table. That table is your entry point.
 
 ```lua
-local Library = loadstring(game:HttpGet("https://ui.f1475236.workers.dev/"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/f1475236-oss/UI-by-valen_vct/refs/heads/main/UI%20by%20valen_vct"))()
 ```
 
 {% hint style="info" %}

@@ -4,6 +4,7 @@
 
 ## Start
 
+* [Quick start](start/quickstart.md)
 * [Installation](start/installation.md)
 * [Create a window](start/window.md)
 * [Tabs & sections](start/tabs.md)
@@ -16,11 +17,20 @@
 * [Slider & Number](components/sliders.md)
 * [Input & Keybind](components/input.md)
 * [Segmented](components/segmented.md)
+* [List view](components/list.md)
 * [Labels & display](components/display.md)
 * [Stat, Progress & Graph](components/data.md)
 * [Tabbox & Group](components/tabbox.md)
 * [Palette & Color](components/color.md)
 * [Discord & Social](components/social.md)
+
+## Advanced
+
+* [Flags & Options](advanced/flags.md)
+* [Events](advanced/events.md)
+* [Fonts](advanced/fonts.md)
+* [Accessibility](advanced/accessibility.md)
+* [Mobile](advanced/mobile.md)
 
 ## Window
 
