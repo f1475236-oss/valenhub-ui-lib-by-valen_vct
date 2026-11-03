@@ -13,6 +13,9 @@
 | `:SetVisible(bool)` | Show / hide the window. |
 | `:SetLayout("Side" / "Top")` | Where the tab menu sits. |
 | `:SetUIScale(n)` | Scale the whole window (e.g. 0.9, 1, 1.1). |
+| `:SetFont(name)` | Change the whole UI font — see [Fonts](../advanced/fonts.md). |
+| `:SetTextScale(n)` | Scale only the text — see [Accessibility](../advanced/accessibility.md). |
+| `:SetHighContrast(bool)` | High-contrast mode. |
 | `:SetLanguage("en" / "th")` | Switch language (uses your `Translations`). |
 | `:SetStatus({Map=, Detail=})` | Text in the header status line. |
 | `:Tag({Text=, Color=})` | Small badge on the window. |
