@@ -30,6 +30,6 @@ Read `Window.Unloaded` in your loops to stop them when the hub closes.
 
 | Field | Description |
 | --- | --- |
-| `Library.Version` | Version string, e.g. `"1.1.0"`. |
+| `Library.Version` | Version string, e.g. `"1.1.4"`. |
 | `Library.IconURL` | Set before `CreateWindow` to load extra Lucide icons from your own host. Icons are cached in `ValenUI/cache/` after the first load. |
 | `Library.Windows` | Windows currently open from this copy of the library. |

@@ -15,7 +15,7 @@ sec:Keybind({
 ```
 
 **Input methods:** `:Set(text)`, `:Get()`.
-**Keybind methods:** `:Set(key)`, `:Get()`.
+**Keybind methods:** `:Set(key)` (KeyCode or name like `"P"`; `nil` clears), `:Get()` — the key name, or `false` when none.
 
 ## Multi-line input
 

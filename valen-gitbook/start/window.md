@@ -21,7 +21,7 @@ local Window = Library:CreateWindow({
 | `Logo` | number | Roblox image asset id shown in the header. |
 | `Icon` | string | Lucide icon name used when no Logo is set. |
 | `Tier` | string | Badge text (e.g. `"Premium"`). Omit to show the username. |
-| `ToggleKey` | KeyCode | Key that shows/hides the window. |
+| `ToggleKey` | KeyCode / string | Key that shows/hides the window, e.g. `Enum.KeyCode.RightControl` or `"K"`. |
 | `DragSmooth` | number | Window drag easing, 5–12. Lower trails the mouse more. |
 | `Translations` | table | Your own strings per language — see [SetLanguage](../window/methods.md). |
 | `Id` | string | Unique hub id. Names the window and the folder `ValenUI/<Id>/` that holds configs, layout and pins. Defaults to `Title`. Keep it the same between updates. |

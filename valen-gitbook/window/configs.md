@@ -29,5 +29,5 @@ local ok, err = Window:ImportConfig(code, { Silent = true })
 ```
 
 {% hint style="warning" %}
-**Always give saved controls a `Flag`.** Without one the key is `"Tab/Card/Name"`. If you rename a tab or card, Valen UI still finds the control by its name when that name is unique in the hub, but a `Flag` never breaks.
+**Always give saved controls a `Flag`.** Without one the key is `"Tab/Card/Name"`. If you rename a tab or card, Valen UI still finds the control by its name when that name is unique in the hub, but a `Flag` never breaks. Two controls with the same name in one card get keys ending in `#2`, `#3` — give them a `Flag` so their saves stay stable.
 {% endhint %}
